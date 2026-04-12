@@ -46,13 +46,13 @@ The goal is to understand how different strategies solve optimization and sortin
 
 ---
 
-## 📊 Performance Analysis
+## 📊 Performance & Analysis
 
-* Merge Sort performs efficiently for large datasets
-* Bubble Sort becomes slow as input size increases
-* Greedy algorithms provide fast but not always optimal solutions
-* Dynamic Programming ensures optimal results with higher memory usage
-
+- Merge Sort has time complexity O(n log n) and performs efficiently for large datasets.  
+- Bubble Sort has O(n²) complexity and becomes slow as input size increases.  
+- Fractional Knapsack uses a greedy approach and gives fast results.  
+- 0/1 Knapsack uses Dynamic Programming and ensures optimal solution.
+  
 ---
 
 ## 🛠️ Tools & Technologies
