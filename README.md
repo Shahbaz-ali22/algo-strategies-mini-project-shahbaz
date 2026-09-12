@@ -1,86 +1,46 @@
-# Algorithm Strategies Mini Project
+# ⚡ Algorithm Strategies Mini Project
 
-## 📌 Overview
+> Practical comparison of Divide & Conquer, Greedy, and Dynamic Programming strategies using Python.
 
-This project demonstrates the implementation and comparison of three major algorithmic paradigms:
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](https://www.python.org/) [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/) [![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C)](https://matplotlib.org/)
 
-* **Divide and Conquer**
-* **Greedy Algorithm**
-* **Dynamic Programming**
+## 🎯 Objectives
 
-The goal is to understand how different strategies solve optimization and sorting problems, and how their performance varies with input size.
+- Implement classic algorithmic strategies
+- Compare runtime behavior
+- Understand trade-offs between speed, memory, and optimality
+- Visualize performance as input size changes
 
----
+## 🧠 Implemented Algorithms
 
-## 🧠 Problems Implemented
+| Strategy | Problem | Key idea | Typical complexity |
+|---|---|---|---|
+| Divide & Conquer | Merge Sort | Split and merge | O(n log n) |
+| Sorting comparison | Bubble Sort | Repeated adjacent swaps | O(n²) |
+| Greedy | Fractional Knapsack | Best value/weight first | O(n log n) |
+| Dynamic Programming | 0/1 Knapsack | Reuse overlapping subproblems | O(nW) |
 
-### 🔹 1. Divide and Conquer – Merge Sort
+## 📊 What the project demonstrates
 
-* Implemented Merge Sort using recursion
-* Divided array into subarrays and merged them in sorted order
-* Analyzed performance using graphs
+**Merge Sort vs Bubble Sort:** why asymptotic complexity matters for larger inputs.
 
----
+**Fractional vs 0/1 Knapsack:** why a greedy strategy can solve the fractional version optimally while the 0/1 version requires dynamic programming for an optimal general solution.
 
-### 🔹 2. Sorting Performance Comparison
+## 🛠️ Tools
 
-* Compared **Merge Sort** and **Bubble Sort**
-* Observed time differences using graphical representation
-* Highlighted efficiency differences (O(n log n) vs O(n²))
+Python • Jupyter Notebook • Matplotlib
 
----
+## ▶️ Run
 
-### 🔹 3. Greedy Algorithm – Fractional Knapsack
+1. Clone the repository.
+2. Open the `.ipynb` notebook in Jupyter Notebook or JupyterLab.
+3. Run the cells in order.
+4. Review the algorithm outputs and performance graphs.
 
-* Selected items based on value-to-weight ratio
-* Maximized total value within given capacity
-* Demonstrated greedy choice property
+## 📈 Key Takeaway
 
----
-
-### 🔹 4. Dynamic Programming – 0/1 Knapsack
-
-* Used DP table to store intermediate results
-* Ensured optimal solution
-* Compared with greedy approach
-
----
-
-## 📊 Performance & Analysis
-
-- Merge Sort has time complexity O(n log n) and performs efficiently for large datasets.  
-- Bubble Sort has O(n²) complexity and becomes slow as input size increases.  
-- Fractional Knapsack uses a greedy approach and gives fast results.  
-- 0/1 Knapsack uses Dynamic Programming and ensures optimal solution.
-  
----
-
-## 🛠️ Tools & Technologies
-
-* Python
-* Jupyter Notebook
-* Matplotlib
-
----
-
-## ▶️ How to Run
-
-1. Open the `.ipynb` file in Jupyter Notebook / Jupyter Lab
-2. Run all cells sequentially
-3. Observe outputs and graphs
-
----
-
-## 📈 Conclusion
-
-This project highlights the importance of choosing the right algorithmic strategy:
-
-* Divide and Conquer is efficient for sorting problems
-* Greedy is fast but may not always be optimal
-* Dynamic Programming guarantees optimal solutions but uses more memory
-
----
+Choosing an algorithm is a trade-off between time complexity, memory usage, and the guarantees required by the problem. This project provides a hands-on comparison of three major algorithmic paradigms.
 
 ## 👨‍💻 Author
 
-**Shahbaz Ali**
+**Shahbaz Ali** — Cybersecurity student
